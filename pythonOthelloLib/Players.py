@@ -134,7 +134,7 @@ class MinimaxPlayer(Player):
             board = self.reconstruct(gs)
             return self.utility(board)
 
-        recur = lambda gss: self.minimax_value(gss,player_to_move,oppposing_player,not max_node)
+        recur = lambda gss: self.minimax_value(gss,oppposing_player,player_to_move,not max_node)
 
         minmax_children = list(map(recur,succs))
 

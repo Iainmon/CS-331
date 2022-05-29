@@ -1,0 +1,12 @@
+
+
+python3 main.py preprocessed_train.txt
+
+accuracy: 95.59%
+
+
+
+python3 main.py preprocessed_test.txt
+
+accuracy: 75.25%
+
