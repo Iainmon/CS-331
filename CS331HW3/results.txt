@@ -1,12 +1,12 @@
 
 
-python3 main.py preprocessed_train.txt
+python3 main.py ./trainingSet.txt
 
 accuracy: 95.59%
 
 
 
-python3 main.py preprocessed_test.txt
+python3 main.py ./testSet.txt
 
 accuracy: 75.25%
 

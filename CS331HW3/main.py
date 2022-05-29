@@ -26,8 +26,9 @@ training_data = parse(data)
 
 vocabulary = sorted(list(set(concat([l[0] for l in training_data]))))
 
+import sys
 
-data = open("./testSet.txt")
+data = open(sys.argv[1] or "./testSet.txt") # open("./testSet.txt")
 test_data = parse(data)
 
 def to_vector(item,vocabulary):
